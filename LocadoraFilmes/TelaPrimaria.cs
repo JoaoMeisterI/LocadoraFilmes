@@ -22,6 +22,24 @@ namespace LocadoraFilmes
         {
             Conexao conexao2 = new Conexao();
             Filme teste2 = await conexao2.ObterInformacoesFilme();
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_entrar_Click(object sender, EventArgs e)
+        {
+
+            TelaSecundaria telaSecundaria = new TelaSecundaria();
+            Menu menu = new Menu();
+            
+            this.Hide();
+
+            telaSecundaria.Show();
+
             
         }
     }
